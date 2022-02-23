@@ -4,13 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
 
     <title>Figuras geometricas | Curso practico JS</title>
 </head>
 <body>
-    <h1>
-        Figuras geometricas
-    </h1>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Este es el primer taller del curso practico de javascript</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+
+        <form action="">
+            <label for="InputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+
+            <input id="InputCuadrado" type="number"/>
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calula el perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcula el area
+            </button>
+
+        </form>
+        <hr>
+
+        
+        <div class="triangle">
+            <h2>Calcula el area y perimetro de un triangulo escaleno</h2>
+            <form action="" class="formtriangle">
+                <label for="InputLado1">
+                    Escribe cuanto mide el lado1 del triangle:
+                </label>
+    
+                <input id="InputLado1" type="number"/>
+    
+                <label for="InputLado2">
+                    Escribe cuanto mide el lado2 del triangle:
+                </label>
+    
+                <input id="InputLado2" type="number"/>
+    
+                <label for="InputLado3">
+                    Escribe cuanto mide el lado3 del triangle:
+                </label>
+    
+                <input id="InputLado3" type="number"/>
+    
+    
+    
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calula el perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcula el area
+                </button>
+    
+            </form>
+
+        </div>
+        
+
+    </section>
 
     <script src="./figuras.js" ></script>
 
