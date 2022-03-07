@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 500px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: papayawhip;
+    border-radius: 10px;
+   
+    display: flex;
+    
+    align-items: center;
+    
+    flex-direction: column;
+}
